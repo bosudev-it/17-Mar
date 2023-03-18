@@ -29,7 +29,8 @@
 	height:150px;
 	border-radius:50%;
 	border:1px solid #607d8bc2;
-	margin:50px 94px;
+	margin:50px auto;
+	display:block;
 }
 .profile h1{
 	font-size: 30px;
