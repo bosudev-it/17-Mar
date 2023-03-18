@@ -110,6 +110,49 @@
 	cursor:pointer;
 	text-decoration:underline;
 }
+.header-part{
+	width:90%;
+	margin:auto;
+}
+.logo-area{
+	width:20%;
+	float:left;
+}
+.header-part:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.menu-area{
+	width:75%;
+	float:right;
+}
+.menu-area ul li{
+	float:left;
+	list-style:none;
+	margin:15px;
+}
+.menu-area ul:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.menu-area ul li a{
+	text-decoration: none;
+    font-size: 18px;
+    color: #616161;
+    font-family: system-ui;
+}
+hr{
+	border-width: 1px;
+}
+.menu-area ul li a:hover{
+	color:#bb890a;
+}
+.menu-area .fa{
+	margin-top: 20px;
+    margin-left: 15px;
+}
 
 
 
